@@ -1,2 +1,10 @@
+from trytond.pool import Pool
+
+from . import health
+
+
 def register():
-    pass
+    Pool.register(
+        health.HealthProfessional,
+        module='health_view_custom', type_='model'
+    )
