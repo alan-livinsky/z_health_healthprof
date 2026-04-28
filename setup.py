@@ -23,7 +23,8 @@ for key in ("depends", "extras_depend", "xml"):
         info[key] = [line.strip() for line in info[key].strip().splitlines() if line.strip()]
 
 version = info.get("version", "0.0.1")
-major_version, minor_version = map(int, version.split(".", 2)[:2])
+tryton_version = info.get("tryton_version", version)
+major_version, minor_version = map(int, tryton_version.split(".", 2)[:2])
 
 requires = []
 
