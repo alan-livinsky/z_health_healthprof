@@ -5,7 +5,7 @@ import re
 from setuptools import setup
 
 
-MODULE_NAME = "z_health_healthprof_custom"
+MODULE_NAME = "z_health_healthprof"
 PACKAGE_NAME = f"trytond.modules.{MODULE_NAME}"
 ROOT = Path(__file__).parent
 

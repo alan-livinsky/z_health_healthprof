@@ -1,4 +1,4 @@
-# z_health_healthprof_custom
+# z_health_healthprof
 
 Local GNU Health / Tryton customization for `gnuhealth.healthprofessional`.
 
