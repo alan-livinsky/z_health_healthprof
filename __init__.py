@@ -6,5 +6,5 @@ from . import health
 def register():
     Pool.register(
         health.HealthProfessional,
-        module='health_view_custom', type_='model'
+        module='z_health_healthprof_custom', type_='model'
     )
